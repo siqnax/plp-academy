@@ -23,8 +23,8 @@ final_price = calculate_discount(price, discount_percent)
 
 # Print 
 if discount_percent >= 20:
-    print(f"total price after allowed discount: {final_price}")
+    print(f"Final price after discount: ${round(final_price, 2)}")
 else:
-    print(f"Sorry, No discount. Original price: {price}")
+    print(f"No discount applied. Original price: ${round(price, 2)}")
 
 
